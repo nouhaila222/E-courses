@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* line-height: 1.6; */
+    background-color: #fff;
+
+}
+html,body {
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between ;
+    /* gap: 1rem; */
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.884);
+}
+
+nav{
+    margin-left: 500px;
+}
+
+nav a {
+    color: #070bffe5;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+button {
+    background-color: rgb(7, 68, 199);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.article1 {
+    background-color: #fcf0f0;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width:1250px;
+    height: 600px;
+}
+.article1 .title{
+    color: #070bffe5;
+    text-align: center;
+}
+/* article img {
+    max-width: 400px;
+    height: 200px;
+    float: inline-end;
+    margin: 1rem 200px;
+} */
+.article2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 20px;
+    /* border: black solid 5px; */
+    position: relative;
+    top: 40px;
+    
+}
+footer {
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    margin-top: 60px;
+}
+
+footer p, footer a {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer i {
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+footer i:hover {
+    color: #ddd;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
